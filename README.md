@@ -1,9 +1,8 @@
-# CSC 301, Database Systems
-## Notes (Fall, 2018)
-### Megan Squire, Elon University
+# CSC 301, Database Systems Notes (Fall, 2018)
+## Megan Squire, Elon University
 
-#### Table of Contents
-Unit 1: Introduction to Databases
+### Table of Contents
+#### Unit 1: Introduction to Databases
 
 * 1.0 [Basic concepts](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit1/1.0Notes.md)
 * 1.1 [Things we care about](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit1/1.1Notes.md)
@@ -13,7 +12,7 @@ Unit 1: Introduction to Databases
 
 Day 1 lab covers 1.0-1.4.
 
-Unit 2: SQL: SELECT
+#### Unit 2: SQL: SELECT
 * 2.0 [Basic SELECT]
 * 2.1 [The WHERE clause]
 * 2.2 [Shortcuts to columns and tables: Aliases]
@@ -29,12 +28,12 @@ Unit 2: SQL: SELECT
     
 Day 2 lab covers 2.0-2.5. Day 3 lab covers 2.6. Extra practice questions for Unit 2.
 
-Unit 3: SQL: Functions and additional commands
+#### Unit 3: SQL: Functions and additional commands
 
-Unit 4: SQL: Subqueries and Joins
+#### Unit 4: SQL: Subqueries and Joins
 
-Unit 5: Database Design
+#### Unit 5: Database Design
 
-Unit 6: Database programming in Python
+#### Unit 6: Database programming in Python
 
-Unit 7: JSON, No-SQL, document databases, MongoDB
+#### Unit 7: JSON, No-SQL, document databases, MongoDB
