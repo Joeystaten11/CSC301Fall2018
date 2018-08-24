@@ -53,9 +53,6 @@
 
 🖥 [Day 5 lab covers Additional SQL Commands 3.4-3.5]
 
-🖥 [Extra practice questions for Unit 3]
-
-
 #### Unit 4: SQL: Joins and Subqueries
 
 #### Unit 5: Database Design
