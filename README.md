@@ -26,15 +26,37 @@
     - 2.6.3 [Efficiency]
     - 2.6.4 [HAVING]
     
-🖥 [Day 2 lab covers 2.0-2.5.]
+🖥 [Day 2 lab covers Basic SELECTs 2.0-2.5]
 
-🖥 [Day 3 lab covers 2.6.]
+🖥 [Day 3 lab covers Aggregating Data 2.6]
 
-🖥 [Extra practice questions for Unit 2.]
+🖥 [Extra practice questions for Unit 2]
 
 #### Unit 3: SQL: Functions and additional commands
+* 3.0 [SQL Functions]
+* 3.1 [Date and time functions]
+* 3.2 [String functions]
+* 3.3 [Numeric functions]
+* 3.4 Additional SQL commands: Data Manipulation
+    - 3.4.0 [SELECT]
+    - 3.4.1 [INSERT]
+    - 3.4.2 [INSERT-SELECT]
+    - 3.4.3 [UPDATE]
+    - 3.4.4 [DELETE]
+* 3.5 Additional SQL commands: Data Definition 
+    - 3.5.0 [CREATE]
+    - 3.5.1 [DROP]
+    - 3.5.2 [ALTER]
+    - 3.5.3 [RENAME]
 
-#### Unit 4: SQL: Subqueries and Joins
+🖥 [Day 4 lab covers Functions 3.0-3.3]
+
+🖥 [Day 5 lab covers Additional SQL Commands 3.4-3.5]
+
+🖥 [Extra practice questions for Unit 3]
+
+
+#### Unit 4: SQL: Joins and Subqueries
 
 #### Unit 5: Database Design
 
