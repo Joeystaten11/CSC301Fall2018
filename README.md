@@ -24,6 +24,7 @@ Unit 2: SQL: SELECT
     - 2.6.2 [Rules of GROUP BY]
     - 2.6.3 [Efficiency]
     - 2.6.4 [HAVING]
+
 Unit 3: SQL: Functions and additional commands
 
 Unit 4: SQL: Subqueries and Joins
