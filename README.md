@@ -27,7 +27,9 @@
     - 2.6.4 [HAVING]
     
 🖥 [Day 2 lab covers 2.0-2.5.]
+
 🖥 [Day 3 lab covers 2.6.]
+
 🖥 [Extra practice questions for Unit 2.]
 
 #### Unit 3: SQL: Functions and additional commands
