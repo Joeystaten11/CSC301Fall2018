@@ -10,7 +10,7 @@
 * 1.3 [Data types](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit1/1.3Notes.md)
 * 1.4 [Basic SQL commands](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit1/1.4Notes.md)
 
-Day 1 lab covers 1.0-1.4.
+🖥Day 1 lab covers 1.0-1.4.
 
 #### Unit 2: SQL: SELECT
 * 2.0 [Basic SELECT]
@@ -26,7 +26,7 @@ Day 1 lab covers 1.0-1.4.
     - 2.6.3 [Efficiency]
     - 2.6.4 [HAVING]
     
-Day 2 lab covers 2.0-2.5. Day 3 lab covers 2.6. Extra practice questions for Unit 2.
+🖥Day 2 lab covers 2.0-2.5. Day 3 lab covers 2.6. Extra practice questions for Unit 2.
 
 #### Unit 3: SQL: Functions and additional commands
 
