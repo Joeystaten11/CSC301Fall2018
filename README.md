@@ -12,15 +12,15 @@ Unit 1: Introduction to Databases
 * 1.4 [Basic SQL commands](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit1/1.4Notes.md)
 
 Unit 2: SQL: SELECT
-* 2.0 [Basic SELECT]()
-* 2.1 [The WHERE clause]()
-* 2.2 [Shortcuts to columns and tables: Aliases]()
-* 2.3 [Sorting with ORDER BY]()
-* 2.4 [Reducing results with LIMIT]()
-* 2.5 [Creating sets with IN]()
+* 2.0 [Basic SELECT]
+* 2.1 [The WHERE clause]
+* 2.2 [Shortcuts to columns and tables: Aliases]
+* 2.3 [Sorting with ORDER BY]
+* 2.4 [Reducing results with LIMIT]
+* 2.5 [Creating sets with IN]
 * 2.6 Aggregating data
-    - 2.6.0 [Simple aggregates]()
-    - 2.6.1 [Aggregating with GROUP BY]()
+    - 2.6.0 [Simple aggregates]
+    - 2.6.1 [Aggregating with GROUP BY]
     - 2.6.2 [Rules of GROUP BY]
     - 2.6.3 [Efficiency]
     - 2.6.4 [HAVING]
