@@ -10,7 +10,7 @@
 * 1.3 [Data types](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit1/1.3Notes.md)
 * 1.4 [Basic SQL commands](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit1/1.4Notes.md)
 
-🖥 [Day 1 lab covers 1.0-1.4.](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit1/Day1lab.md)
+🖥 [Day 1 lab covers 1.0-1.4](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit1/Day1lab.md)
 
 #### Unit 2: SQL: SELECT
 * 2.0 [Basic SELECT]
