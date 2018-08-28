@@ -23,7 +23,7 @@ INSERT INTO `pets` (`petID`, `petName`, `birthdate`, `petType`, `ownerFirst`, `o
 (3, 'PiedPiper', NULL, 'fish', 'Dinesh', 'Gilfoyle', 'unknown', '2017-09-03 13:00:14', NULL),
 (4, 'Funny Beak', NULL, 'chicken', 'Kurt', 'Cobain', 'unknown', '2017-08-10 14:45:16', NULL);
 ```
-* Modify the pets you added. 
+* Change the sex of one of the pets 
 ```sql
 UPDATE `pets` SET `sex` = 'm' WHERE `pets`.`petID` = 4;
 ```
