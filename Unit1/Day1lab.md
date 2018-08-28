@@ -5,7 +5,7 @@ Get familiar with PhpMyAdmin, create a simple table, insert some data, make chan
 ## What to do
 
 ### 1. Log into the server 
-I've set each of you up with a user account on the [CS database server](https://grid8.cs.elon.edu/phpmyadmin). Log in.
+I've set each of you up with a user account on the [CS database server](http://grid8.cs.elon.edu/phpmyadmin/). Log in.
 
 ### 2. Find your database schema
 On the left-hand pane, choose the database schema named after yourself. This is where you will do your work.
