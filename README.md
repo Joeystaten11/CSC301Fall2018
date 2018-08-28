@@ -13,18 +13,18 @@
 🖥 [Day 1 lab covers 1.0-1.4](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit1/Day1Lab.md) ([Answers](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit1/Day1LabAnswers.md))
 
 #### Unit 2: SQL: SELECT
-* 2.0 [Basic SELECT]
-* 2.1 [The WHERE clause]
-* 2.2 [Shortcuts to columns and tables: Aliases]
-* 2.3 [Sorting with ORDER BY]
-* 2.4 [Reducing results with LIMIT]
-* 2.5 [Creating sets with IN]
+* 2.0 [Basic SELECT](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit2/2.0Notes.md)
+* 2.1 [The WHERE clause](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit2/2.1Notes.md)
+* 2.2 [Shortcuts to columns and tables: Aliases](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit2/2.2Notes.md)
+* 2.3 [Sorting with ORDER BY](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit2/2.3Notes.md)
+* 2.4 [Reducing results with LIMIT](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit2/2.4Notes.md)
+* 2.5 [Creating sets with IN](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit2/2.5Notes.md)
 * 2.6 Aggregating data
-    - 2.6.0 [Simple aggregates]
-    - 2.6.1 [Aggregating with GROUP BY]
-    - 2.6.2 [Rules of GROUP BY]
-    - 2.6.3 [Efficiency]
-    - 2.6.4 [HAVING]
+    - 2.6.0 [Simple aggregates](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit2/2.6.0Notes.md)
+    - 2.6.1 [Aggregating with GROUP BY](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit2/2.6.1Notes.md)
+    - 2.6.2 [Rules of GROUP BY](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit2/2.6.2Notes.md)
+    - 2.6.3 [Efficiency](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit2/2.6.3Notes.md)
+    - 2.6.4 [HAVING](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit2/2.6.4Notes.md)
     
 🖥 [Day 2 lab covers Basic SELECTs 2.0-2.5]
 
