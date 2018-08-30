@@ -42,7 +42,7 @@ SELECT CountryName, HeadOfState
 FROM Country
 WHERE HeadOfState LIKE '%''%'; -- you can "escape" the single quote with another single quote since it is already enclosed in singles
 ```
-6. Write the SQL to show all known information about cities. (do not use the LIMIT keyword) You do not need to show the answers, just the SQL.
+6. Write the SQL to show all known information about all cities. 
 ```sql
 SELECT * 
 FROM 'City';
@@ -57,7 +57,13 @@ WHERE CityName = 'Kabul';
 ```sql
 SELECT CityName, Population 
 FROM City 
-WHERE CityName = 'Kabul' OR Name = 'Qandahar';
+WHERE CityName = 'Kabul' OR CityName = 'Qandahar';
+```
+or
+```sql
+SELECT CityName, Population
+FROM City
+WHERE CityName IN ('Kabul', 'Qandahar');
 ```
 9. Write the SQL to show the population, country code, and city name for all cities in Afghanistan (use country code AFG). 
 ```sql
