@@ -26,32 +26,32 @@
     - 2.6.3 [Efficiency](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit2/2.6.3Notes.md)
     - 2.6.4 [HAVING](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit2/2.6.4Notes.md)
     
-🖥 [Day 2 lab covers Basic SELECTs, Unit 2.0-2.5](https://github.com/megansquire/CSC301Fall2018/tree/master/Unit2/Day2Lab.md)([Answers](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit2/Day2LabAnswers.md))
+🖥 [Day 2 lab covers Basic SELECTs, Unit 2.0-2.5](https://github.com/megansquire/CSC301Fall2018/tree/master/Unit2/Day2Lab.md) ([Answers](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit2/Day2LabAnswers.md))
 
-🖥 [Day 3 lab covers Aggregating Data, Unit 2.6](https://github.com/megansquire/CSC301Fall2018/tree/master/Unit2/Day3Lab.md)([Answers])
+🖥 [Day 3 lab covers Aggregating Data, Unit 2.6](https://github.com/megansquire/CSC301Fall2018/tree/master/Unit2/Day3Lab.md) ([Answers])
 
-🖥 [Extra practice questions for Unit 2](https://github.com/megansquire/CSC301Fall2018/tree/master/Unit2/Unit2ExtraPractice.md)([Answers])
+🖥 [Extra practice questions for Unit 2](https://github.com/megansquire/CSC301Fall2018/tree/master/Unit2/Unit2ExtraPractice.md) ([Answers])
 
 #### Unit 3: SQL: Functions and additional commands
-* 3.0 [SQL Functions]
-* 3.1 [Date and time functions]
-* 3.2 [String functions]
-* 3.3 [Numeric functions]
-* 3.4 Additional SQL commands: Data Manipulation
-    - 3.4.0 [SELECT]
-    - 3.4.1 [INSERT]
-    - 3.4.2 [INSERT-SELECT]
-    - 3.4.3 [UPDATE]
-    - 3.4.4 [DELETE]
-* 3.5 Additional SQL commands: Data Definition 
-    - 3.5.0 [CREATE]
-    - 3.5.1 [DROP]
-    - 3.5.2 [ALTER]
-    - 3.5.3 [RENAME]
+* 3.0 [SQL Functions](https://github.com/megansquire/CSC3012018FallPrivate/blob/master/Unit3/3.0Notes.md)
+* 3.1 [Date and time functions](https://github.com/megansquire/CSC3012018FallPrivate/blob/master/Unit3/3.1Notes.md)
+* 3.2 [String functions](https://github.com/megansquire/CSC3012018FallPrivate/blob/master/Unit3/3.2Notes.md)
+* 3.3 [Numeric functions](https://github.com/megansquire/CSC3012018FallPrivate/blob/master/Unit3/3.3Notes.md)
+* 3.4 Additional SQL commands: [Data Manipulation](https://github.com/megansquire/CSC3012018FallPrivate/blob/master/Unit3/3.4Notes.md)
+    - 3.4.0 SELECT
+    - 3.4.1 INSERT
+    - 3.4.2 INSERT-SELECT
+    - 3.4.3 UPDATE
+    - 3.4.4 DELETE
+* 3.5 Additional SQL commands: [Data Definition](https://github.com/megansquire/CSC3012018FallPrivate/blob/master/Unit3/3.5Notes.md)
+    - 3.5.0 CREATE
+    - 3.5.1 DROP
+    - 3.5.2 ALTER
+    - 3.5.3 RENAME
 
-🖥 [Day 4 lab covers Functions 3.0-3.3]
+🖥 [Day 4 lab covers Functions 3.0-3.3] ([Answers])
 
-🖥 [Day 5 lab covers Additional SQL Commands 3.4-3.5]
+🖥 [Day 5 lab covers Additional SQL Commands 3.4-3.5] ([Answers])
 
 #### Unit 4: SQL: Joins and Subqueries
 
