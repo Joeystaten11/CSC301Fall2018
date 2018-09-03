@@ -26,7 +26,7 @@
     - 2.6.3 [Efficiency](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit2/2.6.3Notes.md)
     - 2.6.4 [HAVING](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit2/2.6.4Notes.md)
     
-🖥 [Day 2 lab covers Basic SELECTs, Unit 2.0-2.5](https://github.com/megansquire/CSC301Fall2018/tree/master/Unit2/Day2Lab.md)([Answers])
+🖥 [Day 2 lab covers Basic SELECTs, Unit 2.0-2.5](https://github.com/megansquire/CSC301Fall2018/tree/master/Unit2/Day2Lab.md)([Answers](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit2/Day2LabAnswers.md))
 
 🖥 [Day 3 lab covers Aggregating Data, Unit 2.6](https://github.com/megansquire/CSC301Fall2018/tree/master/Unit2/Day3Lab.md)([Answers])
 
