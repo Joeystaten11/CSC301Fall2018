@@ -29,7 +29,7 @@ Practice using aggregate functions (Unit 2.6) in single-table SELECT statements.
 
 8. Write the SQL to list each HeadOfState and add up how many people that person is in charge of, sort them from most people to least, but ONLY include the HeadsOfState that are in charge of countries on the North American continent.
 
-9. Write the SQL to count major cities by country code, but only list the countries that begin with the letter A and have 2 or fewer major cities.
+9. Write the SQL to count major cities by country code, but only list the countries that begin with the letter A and have 2 or fewer major cities. (Major cities are the ones listed in the City table.)
 
 
 ## What to turn in
