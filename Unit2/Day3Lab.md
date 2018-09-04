@@ -9,9 +9,9 @@ Practice using aggregate functions (Unit 2.6) in single-table SELECT statements.
 * Create a .txt file to hold the SQL answers to the following questions:
 1. Write a SQL query to find the percentage of Alamance County (NC) citizens who are living in poverty. Just show the percentage and the County Name. *Does this query need an aggregate?*
 
-2. Write a SQL query to find the percentage of NC residents who are living in poverty. Just show the state code and the percentage. *Does this query need an aggregate?*
+2. Write a SQL query to find the percentage of NC residents who are living in poverty. Just show the state code and the percentage. *Look at the data carefully - does this query need an aggregate?*
 
-3. Write a SQL query to list the county names and poverty rates for NC counties whose pov\_pct rate is higher than the NC rate. Put them in order from highest down to lowest. (You may 'hard code' in the NC rate in your WHERE clause today - in other words, just type in the percentage number in the WHERE clause. In future classes we will learn how to look up the NC rate automatically, but we haven't learned how to do that yet.) The answer should look something like the following:
+3. Write a SQL query to list the county names and poverty rates for NC counties whose ```pov_pct``` rate is higher than the NC rate. Put them in order from highest down to lowest. (You may 'hard code' in the NC rate in your ```WHERE``` clause today - in other words, just type in the percentage number in the ```WHERE``` clause. In future classes we will learn how to look up the NC rate automatically, but we haven't learned how to do that yet.) The answer should look something like the following:
 
 ![question 3](https://github.com/megansquire/CSC301Fall2018/blob/master/images/day3Lab.1.png)
 
