@@ -33,25 +33,25 @@
 🖥 [Extra practice questions for Unit 2](https://github.com/megansquire/CSC301Fall2018/tree/master/Unit2/Unit2ExtraPractice.md) ([Answers])
 
 #### Unit 3: SQL: Functions and additional commands
-* 3.0 [SQL Functions](https://github.com/megansquire/CSC3012018FallPrivate/blob/master/Unit3/3.0Notes.md)
-* 3.1 [Date and time functions](https://github.com/megansquire/CSC3012018FallPrivate/blob/master/Unit3/3.1Notes.md)
-* 3.2 [String functions](https://github.com/megansquire/CSC3012018FallPrivate/blob/master/Unit3/3.2Notes.md)
-* 3.3 [Numeric functions](https://github.com/megansquire/CSC3012018FallPrivate/blob/master/Unit3/3.3Notes.md)
-* 3.4 Additional SQL commands: [Data Manipulation](https://github.com/megansquire/CSC3012018FallPrivate/blob/master/Unit3/3.4Notes.md)
+* 3.0 [SQL Functions](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit3/3.0Notes.md)
+* 3.1 [Date and time functions](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit3/3.1Notes.md)
+* 3.2 [String functions](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit3/3.2Notes.md)
+* 3.3 [Numeric functions](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit3/3.3Notes.md)
+* 3.4 Additional SQL commands: [Data Manipulation](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit3/3.4Notes.md)
     - 3.4.0 SELECT
     - 3.4.1 INSERT
     - 3.4.2 INSERT-SELECT
     - 3.4.3 UPDATE
     - 3.4.4 DELETE
-* 3.5 Additional SQL commands: [Data Definition](https://github.com/megansquire/CSC3012018FallPrivate/blob/master/Unit3/3.5Notes.md)
+* 3.5 Additional SQL commands: [Data Definition](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit3/3.5Notes.md)
     - 3.5.0 CREATE
     - 3.5.1 DROP
     - 3.5.2 ALTER
     - 3.5.3 RENAME
 
-🖥 [Day 4 lab covers Functions 3.0-3.3] ([Answers])
+🖥 [Day 4 lab covers Functions 3.0-3.3](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit3/Day4Lab.md) ([Answers])
 
-🖥 [Day 5 lab covers Additional SQL Commands 3.4-3.5] ([Answers])
+🖥 [Day 5 lab covers Additional SQL Commands 3.4-3.5](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit3/Day5Lab.md) ([Answers])
 
 #### Unit 4: SQL: Joins and Subqueries
 
