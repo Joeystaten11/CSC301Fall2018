@@ -30,7 +30,7 @@
 
 🖥 [Day 3 lab covers Aggregating Data, Unit 2.6](https://github.com/megansquire/CSC301Fall2018/tree/master/Unit2/Day3Lab.md) ([Answers](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit2/Day3LabAnswers.md))
 
-🖥 [Extra practice questions for Unit 2](https://github.com/megansquire/CSC301Fall2018/tree/master/Unit2/Unit2ExtraPractice.md) ([Answers])
+🖥 [Extra practice questions for Unit 2](https://github.com/megansquire/CSC301Fall2018/tree/master/Unit2/Unit2ExtraPractice.md) (Answers included)
 
 #### Unit 3: SQL: Functions and additional commands
 * 3.0 [SQL Functions](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit3/3.0Notes.md)
