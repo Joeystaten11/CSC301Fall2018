@@ -24,7 +24,7 @@ Hint 2: here is a screenshot of the results we want. Remember that \`Continent\`
 
 4. Congratulations, you have been assigned to the birthday party planning committee for the company in the *Employee* database. Write the SQL to print out a list showing each month of the year (numbered 1-12) and count how many people have a birthday in that month. Put these in order by month (1-12).
 
-5. Assuming you can feed 100 people with one extra large birthday cake, how many cakes will you need each month? Make sure you *round up* so no one gets left out of the cake-fest. We don't want any fractional cakes! Write SQL to show the month number, the number of birthdays that month, the number of cakes needed, and a calculation of the total cake budget (each extra large sheet cake costs $43.) Show this number with a dollar sign and commas for the thousands places (if needed), as follows:
+5. Assuming you can feed 100 people with one extra large birthday cake, how many cakes will you need each month? Make sure you *round up* so no one gets left out of the cake-fest. Write SQL to show the month number, the number of birthdays that month, the number of cakes needed, and a calculation of the total cake budget (each extra large sheet cake costs $43.) Show this number with a dollar sign and commas for the thousands places (if needed), as follows:
 
 | Month | Birthdays | Cakes | Cake Budget| 
 |-------|-----------|-------|------------|
