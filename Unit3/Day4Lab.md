@@ -32,7 +32,7 @@ Hint 2: here is a screenshot of the results we want. Remember that \`Continent\`
 
 ### *Music* database
 
-6. Which states in the United States have the most customers? Show the two states that tied for the highest count of customers.
+6. Which state **in the United States** has the most customers? Show the state with the highest count of customers.
 
 7. Imagine that we would eventually like to draw a graph of the number of invoices by month and year. Write the SQL that will yield the data needed to make this graph. Put the data result set in order by year and then month. Display the name of the month, but put them in the order that they appear in time (January comes before February, then March, etc. ). [MySQL Documentation for date/time functions](https://dev.mysql.com/doc/refman/5.7/en/date-and-time-functions.html)
 
