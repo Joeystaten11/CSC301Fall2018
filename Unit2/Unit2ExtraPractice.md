@@ -40,7 +40,7 @@ FROM City;
 SELECT Name, MAX(population) 
 FROM City
 GROUP BY 1 
-ORDER BY Population DESC 
+ORDER BY 2 DESC 
 LIMIT 1;
 ```
 3. List every head of state from the countries table and how many countries they are in charge of. List them in order of most to least countries.
