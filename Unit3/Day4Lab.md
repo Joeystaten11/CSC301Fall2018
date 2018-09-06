@@ -7,7 +7,11 @@ Open a text editor to create a .txt file to store your answers to the following 
 
 ### *World* database
 
-1. Write a SQL query to list each continent (Africa, North America, etc) in upper case, and show each region within that continent, and then count how many countries are in that region. Sort these in alphabetical order by continent and then by count. Hint: here is a screenshot of the results we want. Remember that \`Continent\` is an enum data type column. The sort order of an enum column is pre-specified in the table structure. If the order is not coming out how you want, remember that the screenshot below shows CAPITALIZED Continent names. How can capitalization change the "order by" clause?
+1. Write a SQL query to list each continent (Africa, North America, etc) in upper case, and show each region within that continent, and then count how many countries are in that region. Sort these in alphabetical order by continent and then by count. 
+
+Hint 1: write this query in pieces and add features as you go. For example, write the group by and make sure that works, then add the uppercasing.
+
+Hint 2: here is a screenshot of the results we want. Remember that \`Continent\` is an enum data type column. The sort order of an enum column is pre-specified in the table structure. If the order is not coming out how you want, remember that the screenshot below shows CAPITALIZED Continent names. How can capitalization change the "order by" clause?
 ![q1](https://github.com/megansquire/CSC301Fall2018/blob/master/images/day4lab.0.png)
 
 2. Construct a SQL query to list countries that have a country code that is the same as the first three letters of a country's name. For example, AFG = Afghanistan, and ALB = Albania. Hint: there are 76 results - only 76 countries have an abbreviation that is the SAME as the first three letters of its name. In your result, list the country name and the code.
