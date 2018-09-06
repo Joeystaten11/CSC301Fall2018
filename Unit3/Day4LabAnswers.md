@@ -10,7 +10,7 @@ ORDER BY 1, 3;
 ```sql
 SELECT Code, CountryName 
 FROM Country
-WHERE code = left(upper(name),3);
+WHERE Code = left(upper(CountryName),3);
 ```
 or, we can flip the order of upper() & left():
 ```sql
@@ -79,7 +79,7 @@ SOUNDS LIKE "louis";
 --OR--
 ```sql
 SELECT * 
-FROM `Customer` 
+FROM Customer 
 WHERE SOUNDEX('Louis') = SOUNDEX(FirstName);
 ```
 4. On what day in history did your Music company make the most money? Write the SQL to calculate a total for each date. Format the total sales as currency. Display only the highest total date.
