@@ -10,7 +10,7 @@ Open a text editor to create a .txt file to store your answers to the following 
 1. Write a SQL query to list each continent (Africa, North America, etc) in upper case, and show each region within that continent, and then count how many countries are in that region. Sort these in alphabetical order by continent and then by count. Hint: here is a screenshot of the results we want. Remember that \`Continent\` is an enum data type column. The sort order of an enum column is pre-specified in the table structure. If the order is not coming out how you want, remember that the screenshot below shows CAPITALIZED Continent names. How can capitalization change the "order by" clause?
 ![q1](https://github.com/megansquire/CSC301Fall2018/blob/master/images/day4lab.0.png)
 
-2. Construct a SQL query to find countries that have a country code that is the same as the first three letters of a country's name. For example, AFG = Afghanistan, and ALB = Albania. Hint: there are 76 results - only 76 countries have an abbreviation that is the SAME as the first three letters of its name.
+2. Construct a SQL query to list countries that have a country code that is the same as the first three letters of a country's name. For example, AFG = Afghanistan, and ALB = Albania. Hint: there are 76 results - only 76 countries have an abbreviation that is the SAME as the first three letters of its name. In your result, list the country name and the code.
 
 3. Construct a SQL query that will list the countries from largest to smallest by land area. Print them so that the answer looks like the result below, in a single column. Your result will have 239 rows, one for each country.
 
@@ -18,9 +18,9 @@ Open a text editor to create a .txt file to store your answers to the following 
 
 ### *Employee* database
 
-4. Congratulations, you have been assigned to the birthday party planning committee for the company in the *Employee* database. Write the SQL to print out a list showing each month of the year (numbered 1-12) and how many birthdays occur in that month. Put these in order by month.
+4. Congratulations, you have been assigned to the birthday party planning committee for the company in the *Employee* database. Write the SQL to print out a list showing each month of the year (numbered 1-12) and count how many people have a birthday in that month. Put these in order by month (1-12).
 
-5. Assuming you can feed 100 people with one extra large birthday cake, how many cakes will you need each month? Make sure you round up so no one gets left out of the cake-fest like [Milton in Office Space](https://www.youtube.com/watch?v=ctOBMFznkto). No fractional cakes! Write SQL to show the month number, the number of birthdays that month, the number of cakes needed, and a calculation of the total cake budget (each cake costs $43.) Show this number with a dollar sign and commas for the thousands places (if needed), as follows:
+5. Assuming you can feed 100 people with one extra large birthday cake, how many cakes will you need each month? Make sure you *round up* so no one gets left out of the cake-fest. We don't want any fractional cakes! Write SQL to show the month number, the number of birthdays that month, the number of cakes needed, and a calculation of the total cake budget (each extra large sheet cake costs $43.) Show this number with a dollar sign and commas for the thousands places (if needed), as follows:
 
 | Month | Birthdays | Cakes | Cake Budget| 
 |-------|-----------|-------|------------|
@@ -32,11 +32,11 @@ Open a text editor to create a .txt file to store your answers to the following 
 
 7. Imagine that we would eventually like to draw a graph of the number of invoices by month and year. Write the SQL that will yield the data needed to make this graph. Put the data result set in order by year and then month. Display the name of the month, but put them in the order that they appear in time (January comes before February, then March, etc. ). [MySQL Documentation for date/time functions](https://dev.mysql.com/doc/refman/5.7/en/date-and-time-functions.html)
 
-8. Imagine you are a customer service representative. You answer the phone and the person complaining on the other end says his name, and you hear him say something like "Louis" for this first name. However, you run a SQL command to search for first names like Louis and nothing comes up. Write the SQL command to find all the customer details for a selection of names that might sound like Louis. Hint, it should match names like Luis, Luís, Lewis and even Lucas, but without specifically naming any of those names in the query. Another hint, check the [MySQL documentation](https://dev.mysql.com/doc/refman/5.7/en/string-functions.html) for possible string functions to use...
+8. Imagine you are a customer service representative. You answer the phone and the person complaining on the other end says his name, and you hear him say something like "Louis" for this first name. However, you run a SQL command to search for first names like Louis and nothing comes up. Write the SQL command to find all the customer details for a selection of names that might *sound like* Louis. Hint, it should match names like Luis, Luís, Lewis and even Lucas, but without specifically naming any of those names in the query. Another hint, check the [MySQL documentation](https://dev.mysql.com/doc/refman/5.7/en/string-functions.html) for possible string functions to use...
 
-9. On what day in history did your Music company make the most money? Write the SQL to calculate a total for each date. Format the total sales as currency. Display the highest total date.
+9. On what day in history did your Music company make the most money? Write the SQL to calculate a total for each date. Format the total sales as currency, with a dollar sign and a period between the dollars and cents. Display only the information for the highest total date.
 
-10. What day of the week do we make the most money? Write the SQL to show the days of the week (Sunday, Monday, etc) and the sum of all invoices presented on that day, ever. Sort the items in the order that the day appears in the week (so for example Sunday is first day, then Monday, etc).
+10. What day of the week do we make the most money? Write the SQL to show the days of the week (Sunday, Monday, etc) and the sum of all invoices presented on that day, ever. Can you sort the items in the order that the day appears in the week (so for example Sunday is first day, then Monday, etc)?
 
 11. We want to find the Customers who have a Last Name that includes characters other than those found in the English alphabet. All these special characters will have a character length that is smaller than the actual length of the string in bytes. For example, the string Muñoz has only 5 characters, but the string has a length of 6, since the ñ character takes 2 bytes to store, rather than just one. Write the SQL to display the LastName, the length of the name in bytes, the length of the characters in the name in bytes, BUT only show the names where there is actually a difference between length and character length.
 
