@@ -89,7 +89,7 @@ ORDER BY 4 DESC;
 1. Forgetting the `ON` statement, and just selecting from both tables. This will result in a "cartesian product" or `CROSS JOIN` between both the tables (all the rows in one table multiplied by all the rows in the second table). Sometimes we do want a CROSS JOIN (see section 4.4.4) but not always.
 1. If you have more than two tables in the `JOIN`, doing too few `JOIN` conditions will produce a semantic error. You must have at least n-1 `JOIN` conditions, where n is the number of tables in the statement. For example, if you have 3 tables that you need to connect together, you need to have 2 `JOIN` conditions.
 
-### Locating your ERD
+### 4.2.5 Locating your ERD
 Sometimes you can get an ERD from the Designer view of PhpMyAdmin:
 
 ![designer in phpmyadmin](https://github.com/megansquire/CSC301Fall2018/blob/master/images/4.6.png)
