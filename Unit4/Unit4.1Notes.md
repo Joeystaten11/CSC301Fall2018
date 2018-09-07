@@ -4,7 +4,7 @@ So far we have only executed SQL statements on a single table at a time. However
 
 A SQL `JOIN` statement will allow us to connect these tables, using these common columns. The purpose of joining two or more tables together is to connect them so we can make more complex, interesting queries.
 
-Below you will see the most common `JOIN` cheat sheet, and many students have reported seeing it in various cubicles during interviews, or after they graduate.
+Below you will see the most common `JOIN` cheat sheet, and many students have reported seeing it in various cubicles during interviews, internships, or after they graduate.
 
 ![SQL Join Venn Diagram](https://github.com/megansquire/CSC301Fall2018/blob/master/images/4.1.jpg?raw=true)
 
