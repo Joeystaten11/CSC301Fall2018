@@ -4,7 +4,7 @@ An `INNER JOIN` statement collects the rows that match the criteria from two or 
 Another way to recognize an `INNER JOIN` is to locate the following very common pattern: Look for one table to act as a "lookup table", sometimes called a "parent" table, and there is another "child" table that uses some sort of code or abbreviation to refer back to the primary key of the parent table. 
 
 ### 4.2.1 INNER JOIN Example: Simple lookup table
-In the *World* database, suppose we want to find out which Country each City is in. We want to list each *City* and its Country *Name*. However, the *City* table only lists the country's *Code8 but not the country's *Name8. 
+In the *World* database, suppose we want to find out which Country each City is in. We want to list each *City* and its Country *Name*. However, the *City* table only lists the country's *Code* but not the country's *Name*. 
 
 In this example, *City* is the child table and *Countries* is the parent table, or lookup table. Notice how the *Code* shown in the *City* table matches up to the PK (*CountryCode*) column of the parent table. This is what we mean when we might say, "The child table refers back to the parent table."
 
@@ -18,7 +18,7 @@ Which yields the following:
 
 ![image of cities and country codes](https://github.com/megansquire/CSC301Fall2018/blob/master/images/4.2.png)
 
-But what does AFG mean? What is NLD? Without joins, we have to manually look up each *CountryCode* in the parent (Countries) table to see what it means. That's terrible.
+But what does AFG mean? What is NLD? Without joins, we have to manually look up each *CountryCode* in the parent (Countries) table to see what it means. That's awkward.
 
 In the diagram (or ERD, for "entity relationship diagram") below, I have circled the columns in common between the three tables - these are now shown in red. These columns all contain the same type of data, the *CountryCode*. 
 
