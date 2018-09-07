@@ -111,4 +111,6 @@ Most of the subqueries you will see in this class will be of the *non-correlated
 
 Many subqueries (especially correlated ones) are generally inefficient and can be re-written to use a JOIN instead. Subqueries are usually quite expensive for the database to process. Use sparingly!
 
-Antoher important note about subqueries is that they must return only one type of item. Notice in the examples shown, the subquery part always only returns one thing: either a max, a count, or a single column in the case of an IN query.
+Another important note about subqueries is that they must return only one type of item. Notice in the examples shown, the subquery part always only returns one thing: either a max, a count, or a single column in the case of an IN query.
+
+Sometimes PHPMyAdmin acts weird when you try to export the results of a subquery.
