@@ -49,9 +49,9 @@
     - 3.5.2 ALTER
     - 3.5.3 RENAME
 
-🖥 [Day 4 lab covers Functions 3.0-3.3](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit3/Day4Lab.md) ([Answers])
+🖥 [Day 4 lab covers Functions 3.0-3.3](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit3/Day4Lab.md) ([Answers](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit3/Day4LabAnswers.md))
 
-🖥 [Day 5 lab covers Additional SQL Commands 3.4-3.5](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit3/Day5Lab.md) ([Answers])
+🖥 [Day 5 lab covers Additional SQL Commands 3.4-3.5](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit3/Day5Lab.md) ([Answers](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit3/Day5LabAnswers.md))
 
 #### Unit 4: SQL: Joins and Subqueries
 * 4.1 [What are joins for?](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit4/Unit4.1Notes.md)
@@ -72,6 +72,8 @@
 * 4.5 [Subqueries](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit4/Unit4.5Notes.md)
     - 4.5.1 [Correlated vs. Non-Correlated](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit4/Unit4.5Notes.md#451-correlated-vs-non-correlated-subqueries)
     - 4.5.2 [Things to know about subqueries](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit4/Unit4.5Notes.md#452-things-to-know-about-subqueries)
+    
+🖥 [Day 6 lab covers INNER JOIN Unit 4.1, 4.2](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit4/Day6Lab.md) ([Answers](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit4/Day6LabAnswers.md))
 #### Unit 5: Database Design
 
 #### Unit 6: Database programming in Python
