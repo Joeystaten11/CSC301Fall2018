@@ -24,7 +24,7 @@ Practice with functions, INSERT, UPDATE using the `sentiment140_orig` table.
 
 6. CHALLENGE: What domains are the most common in this data set? Write a query to extract domains and count them from the sentiment140_urls table.
 
-![extracted URLs](https://github.com/megansquire/CSC301Fall2018/blob/master/images/day5lab.6.png
+![extracted URLs](https://github.com/megansquire/CSC301Fall2018/blob/master/images/day5Lab.6.png
 
 ## What to turn in
 In Moodle, paste in your commands that you wrote for #4 and #5 or upload a text file with these commands.
