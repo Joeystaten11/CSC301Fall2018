@@ -9,7 +9,8 @@ There is a format of equi-join called `NATURAL JOIN` that looks like this:
 
 ```sql
 SELECT * 
-FROM tableA NATURAL JOIN tableB;
+FROM tableA 
+NATURAL JOIN tableB;
 ```
 #### Rules for Natural Joins:
 * There must be some identically-named column in common between the two tables;
@@ -19,12 +20,14 @@ FROM tableA NATURAL JOIN tableB;
 #### Example: Show all the hotel names, hotel ids, and room types.
 ```sql
 SELECT hr.hno, h.hname, hr.roomtype
-FROM hotel h NATURAL JOIN hotel_reservation hr;
+FROM hotel h 
+NATURAL JOIN hotel_reservation hr;
 ```
 #### Example: Show everything about hotels and reservations
 ```sql
 SELECT *
-FROM hotel h NATURAL JOIN hotel_reservation hr;
+FROM hotel h 
+NATURAL JOIN hotel_reservation hr;
 ```
 ### 4.4.3 THETA vs ANSI style
 There is an older style of `INNER JOIN` syntax that doesn't use those `INNER JOIN...ON` keywords. Sometimes you will still see it in use. It looks like this:
