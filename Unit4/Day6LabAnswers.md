@@ -31,10 +31,10 @@ LIMIT 1;
 
 4. In the history of the company, how many managers has each department had? Put these in order from highest number of managers to lowest. Use the full department name, and show the department number, as well as the count.
 ```sql
-SELECT dept_name, dept_manager.dept_no, COUNT(emp_no)
-FROM dept_manager
-INNER JOIN departments 
-  ON dept_manager.dept_no = departments.dept_no
+SELECT d.dept_name, dm.dept_no, COUNT(dm.emp_no)
+FROM dept_manager dm
+INNER JOIN departments d
+  ON dm.dept_no = d.dept_no
 GROUP BY 1,2;
 ```
 
