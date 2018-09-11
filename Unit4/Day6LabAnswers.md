@@ -52,12 +52,12 @@ ORDER BY 2 DESC
 
 Here is a solution using ```substring()``` but you could also use ```left()```
 ```sql
-SELECT CONCAT(SUBSTRING(emp.first_name,1,1),". ", emp.last_name), 
-    emp.emp_no,
+SELECT CONCAT(SUBSTRING(e.first_name,1,1),". ", e.last_name), 
+    e.emp_no,
     COUNT(t.title)
 FROM titles t 
-INNER JOIN employees emp 
-  ON t.emp_no = emp.emp_no
+INNER JOIN employees e 
+  ON t.emp_no = e.emp_no
 GROUP BY 1,2
 HAVING COUNT(t.title) >= 3;
 ```
@@ -80,19 +80,18 @@ SELECT t.emp_no, e.first_name, e.last_name, t.from_date, t.to_date
 FROM titles t
 INNER JOIN employees e 
   ON t.emp_no = e.emp_no
-WHERE DATEDIFF( t.to_date, t.from_date ) < 1;
+WHERE DATEDIFF(t.to_date, t.from_date) < 1;
 ```
 
 9. Write the SQL to show information about employees who are still employed. (We can use the to_date value that is '9999-01-01' to indicate that the employee is still employed, but this seems like a bit of a hack. Think about how the designers should have implemented the idea that an employee is still employed.) Show the employee's information (number, name, hire dates, quit dates), including current (highest) salary.
 ```sql
-SELECT t.emp_no, e.first_name, e.last_name, t.from_date, t.to_date, max(s.salary)
+SELECT t.emp_no, e.first_name, e.last_name, t.from_date, t.to_date, MAX(s.salary)
 FROM titles t
 INNER JOIN employees e 
   ON t.emp_no = e.emp_no
 INNER JOIN salaries s 
   ON s.emp_no = e.emp_no
-  INNER JOIN department
-WHERE YEAR( t.to_date ) = '9999'
-AND YEAR( s.to_date ) = '9999'
+WHERE YEAR(t.to_date) = '9999'
+AND YEAR(s.to_date) = '9999'
 GROUP BY 1,2,3,4,5;
 ```
