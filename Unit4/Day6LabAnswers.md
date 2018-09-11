@@ -49,6 +49,8 @@ ORDER BY 2 DESC
 
 ```
 6. Write the SQL to show each employee's information and the number of job titles they've had. But only show people who have had 3 or more job titles during their time at the company. Show the employee's first initial and last name (for example: M. Squire), and their employee id, and the count of jobs.
+
+Here is a solution using ```substring()``` but you could also use ```left()```
 ```sql
 SELECT concat(substring(emp.first_name,1,1),". ", emp.last_name), 
     emp.emp_no,
