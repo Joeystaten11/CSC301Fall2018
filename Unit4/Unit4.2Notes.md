@@ -32,7 +32,20 @@ FROM City
 INNER JOIN Country
 ON City.CountryCode = Country.Code;
 ```
-
+Another way to write this query using table aliases:
+```sql
+SELECT c.Name as City, co.Name as Country
+FROM City c
+INNER JOIN Country co
+ON c.CountryCode = co.Code;
+```
+You can also flip the order of the tables:
+```sql
+SELECT c.Name as City, co.Name as Country
+FROM Country co
+INNER JOIN City c
+ON co.Code = c.CountryCode;
+```
 ![results from join command](https://github.com/megansquire/CSC301Fall2018/blob/master/images/4.4.png)
 
 In that example, the first column (labeled "City") comes from the *City* table, and the second column, labeled "Country", comes from the *Country* table. We used the "columns in common" *Code* and *CountryCode* to construct the `JOIN`, but we don't have to show that column in common if we don't want to. (And in this case, we chose not to show it.)
