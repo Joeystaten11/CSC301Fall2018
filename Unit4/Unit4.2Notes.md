@@ -11,7 +11,7 @@ In this example, *City* is the child table and *Countries* is the parent table, 
 Without knowing how to do a `JOIN` between the two tables, the best we can do is:
 
 ```sql
-SELECT Name as City, CountryCode
+SELECT CityName as City, CountryCode
 FROM City;
 ```
 Which yields the following:
@@ -27,21 +27,21 @@ In the diagram (or ERD, for "entity relationship diagram") below, I have circled
 Since we have columns in common between tables, we can `JOIN` on one or more of them in order to get the information we need in a single query:
 
 ```sql
-SELECT City.Name as City, Country.Name as Country
+SELECT City.CityName as City, Country.CountryName as Country
 FROM City
 INNER JOIN Country
 ON City.CountryCode = Country.Code;
 ```
 Another way to write this query using table aliases:
 ```sql
-SELECT c.Name as City, co.Name as Country
+SELECT c.CityName as City, co.CountryName as Country
 FROM City c
 INNER JOIN Country co
 ON c.CountryCode = co.Code;
 ```
 You can also flip the order of the tables:
 ```sql
-SELECT c.Name as City, co.Name as Country
+SELECT c.CityName as City, co.CountryName as Country
 FROM Country co
 INNER JOIN City c
 ON co.Code = c.CountryCode;
