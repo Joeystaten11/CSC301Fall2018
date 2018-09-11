@@ -61,7 +61,7 @@ Sometimes an ERD will show lines between the tables, indicating which columns ar
 
 ```sql
 SELECT h.hname, count(hr.hno)
-FROM hotels h
+FROM hotel h
 INNER JOIN hotel_room hr
         ON h.hno = hr.hno
 GROUP BY 1
