@@ -52,14 +52,14 @@ ORDER BY 2 DESC
 
 Here is a solution using ```substring()``` but you could also use ```left()```
 ```sql
-SELECT concat(substring(emp.first_name,1,1),". ", emp.last_name), 
+SELECT CONCAT(SUBSTRING(emp.first_name,1,1),". ", emp.last_name), 
     emp.emp_no,
-    count(t.title)
+    COUNT(t.title)
 FROM titles t 
 INNER JOIN employees emp 
   ON t.emp_no = emp.emp_no
 GROUP BY 1,2
-HAVING count(t.title) >= 3;
+HAVING COUNT(t.title) >= 3;
 ```
 
 7. Write the SQL to show each employee number, first and last names, and birth dates of employees who are some type of engineer, and the number of job titles they've had. Only show people who have had at least 2 engineer jobs and who were born in the 1950s. Put them in order by their birth date.
@@ -71,7 +71,7 @@ INNER JOIN titles t
 WHERE t.title LIKE "%engineer%"
   AND YEAR(e.birth_date) BETWEEN 1950 AND 1959
 GROUP BY 1,2,3,4
-HAVING COUNT(title) >= 2
+HAVING COUNT(t.title) >= 2
 ORDER BY 4;
 ```
 8. Write the SQL to show the information about employees who were employed in a given position for less than one day.
