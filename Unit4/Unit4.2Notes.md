@@ -27,21 +27,21 @@ In the diagram (or ERD, for "entity relationship diagram") below, I have circled
 Since we have columns in common between tables, we can `JOIN` on one or more of them in order to get the information we need in a single query:
 
 ```sql
-SELECT City.CityName as City, Country.CountryName as Country
+SELECT City.CityName as 'City Name', Country.CountryName as 'Country Name'
 FROM City
 INNER JOIN Country
 ON City.CountryCode = Country.Code;
 ```
 Another way to write this query using table aliases:
 ```sql
-SELECT c.CityName as City, co.CountryName as Country
+SELECT City.CityName as 'City Name', Country.CountryName as 'Country Name'
 FROM City c
 INNER JOIN Country co
 ON c.CountryCode = co.Code;
 ```
 You can also flip the order of the tables:
 ```sql
-SELECT c.CityName as City, co.CountryName as Country
+SELECT City.CityName as 'City Name', Country.CountryName as 'Country Name'
 FROM Country co
 INNER JOIN City c
 ON co.Code = c.CountryCode;
