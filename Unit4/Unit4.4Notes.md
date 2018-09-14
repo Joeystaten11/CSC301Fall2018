@@ -2,7 +2,13 @@
 These are the types of things you might also see on a quiz or interview question.
 ### 4.4.1 Equi-join
 The standard `INNER JOIN` where we use equality ("=") to find the intersection for the columns in common is also called an "equi-join".
-> Question to ponder: Is it possible to use a different Boolean operator besides the equals sign('=')? Like this: `tableA INNER JOIN table ON tableA.id > tableB.id`, or does that need to be a `WHERE` clause? How can we test this?
+
+Question to ponder: Is it possible to use a different Boolean operator besides the equals sign('=')? Like this: 
+```sql
+...
+tableA INNER JOIN table ON tableA.id > tableB.id;
+```
+or does that need to be a `WHERE` clause? How can we test this?
 
 ### 4.4.2 Natural JOIN
 There is a format of equi-join called `NATURAL JOIN` that looks like this:
@@ -38,7 +44,7 @@ WHERE tableA.widgetID = tableB.widgetID;
 ```
 This older style is sometimes called *theta-style* join, and the newer `INNER JOIN...ON` style is called an *ANSI* join.
 
-Here is another example using the hotel schema:
+Here is a theta-style JOIN example using the hotel schema:
 
 ```sql
 SELECT h.hname, count(hr.hno)
