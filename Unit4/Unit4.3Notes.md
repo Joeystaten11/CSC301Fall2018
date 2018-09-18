@@ -56,3 +56,14 @@ ORDER BY 3 DESC;
 ```
 One other thing to know about `OUTER JOIN`s: You can mix-and-match `JOIN`s, although it is uncommon to do so, so be sure this is really what you want before you construct a complicated query. You can have a long statement where you `INNER JOIN` some tables and `OUTER JOIN` others.
 
+## 4.3.3 FULL OUTER JOIN
+
+There is no full join syntax for MySQL. Use this format instead:
+
+```sql
+SELECT * FROM tableA
+LEFT JOIN tableB ON tableA.id = tableB.id
+UNION
+SELECT * FROM tableA
+RIGHT JOIN tableB ON tableA.id = tableB.id
+```
