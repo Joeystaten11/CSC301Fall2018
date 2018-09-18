@@ -12,7 +12,7 @@ In the case of the `OUTER JOIN`, we are doing the opposite; we want to show rows
 > Sometimes, as we saw in the [Venn diagram shown in Section 4.1](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit4/Unit4.1Notes.md), you will see `LEFT OUTER JOIN` abbreviated as `LEFT JOIN`. I don't usually do this because I like to be very clear that I am doing an outer join, but you can use it if you like. `RIGHT OUTER JOIN` is synonymous with `RIGHT JOIN` and `LEFT OUTER JOIN` is synonymous with `LEFT JOIN`.
 
 ### 4.3.1 OUTER JOIN Example 1: simple
-Suppose we have a list of *customers*, and a list of *reservations*, and we want to list all customers, even if they have no reservation number.
+Suppose we have a list of *customers*, and a list of *reservations*, and we want to list all customers and reservations, but we also want to list *customers* who don't have a *reservation* at this time.
 
 To do this, we will need to join all the *hotel* customers, and count the reservations from *hotel_reservations*. I will put the *hotel_customer* table on the left (first in the query), so that I can do a `LEFT OUTER JOIN`.
 
