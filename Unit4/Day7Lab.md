@@ -11,11 +11,11 @@ Use the `recipe` database to practice with INNER and OUTER joins.
 ![recipes ERD](https://github.com/megansquire/CSC301Fall2018/blob/master/images/day7lab.1.png)
 
 ## Questions
-1. Write the SQL to show each recipe class the the count of recipes in that class. Do **not** show classes that have no recipes. Hint: you should see 6 rows returned.
+1. Write the SQL to show each recipe class (Dessert, Hors D'Oeuvres, etc), and the count of recipes in that class. Do **not** show classes that have no recipes. Hint: you should see 6 rows returned.
 
-2. Write the SQL to show every recipe that uses some kind of pepper. Show the recipe title and amount of pepper used. (We are interested in the SPICE 'pepper' not the vegetable 'green pepper', so make sure you only show spices). Also, write your query so that you DO NOT assume you know the ingredient ID for any kind of pepper, and DO NOT assume you know the ingredient class ID for 'spice'. Hint: there will be about 8 recipes and 3 different kinds of pepper used in them.
+2. Write the SQL to show every recipe that uses some kind of pepper. Show the recipe title and amount of pepper used. (We are interested in the SPICE 'pepper' not the vegetable 'green pepper', so make sure you only show the spices. Use the `ingredientClassDescription` to do this.) Also, write your query so that you DO NOT assume you know the `ingredientID` for any kind of 'pepper', and DO NOT assume you know the `ingredientClassID` for 'spice'. Hint: there will be about 8 recipes and 3 different kinds of pepper used in them.
 
-3. Show each recipe class description, recipe id, and Recipe Title. Show the classes **even if** there are no recipes from that class. (Hint: Your results should demonstrate that there are no recipes in the Soup class.)
+3. Show each recipe class description, recipe id, and recipe title. Show the classes **even if** there are no recipes from that class. (Hint: Your results should demonstrate that there are no recipes in the Soup class.)
 
 4. Show each recipe class and the count of recipes in that class. Show the class descriptions **even if** there are no recipes from that class. (Hint: You should have 7 records. Compare this approach to #1 above.)
 
