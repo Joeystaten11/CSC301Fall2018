@@ -77,9 +77,9 @@
 
 🖥 [Day 7 lab covers OUTER JOIN Unit 4.3](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit4/Day7Lab.md)([Answers](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit4/Day7LabAnswers.md))
 
-🖥 [Day 8 lab covers Subqueries Unit 4.5 (https://github.com/megansquire/CSC301Fall2018/blob/master/Unit4/Day8Lab.md) ([Answers](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit4/Day8LabAnswers.md))
+🖥 [Day 8 lab covers Subqueries Unit 4.5](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit4/Day8Lab.md) ([Answers](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit4/Day8LabAnswers.md))
 
-🖥 [Day 9 lab reviews JOINs and subqueries 4.1-4.5(https://github.com/megansquire/CSC301Fall2018/blob/master/Unit4/Day9Lab.md)([Answers](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit4/Day9LabAnswers.md))
+🖥 [Day 9 lab reviews JOINs and subqueries 4.1-4.5](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit4/Day9Lab.md)([Answers](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit4/Day9LabAnswers.md))
 #### Unit 5: Database Design
 
 #### Unit 6: Database programming in Python
