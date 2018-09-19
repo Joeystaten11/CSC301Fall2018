@@ -5,7 +5,7 @@ Practice writing subqueries and joins.
 ## Questions using the 'world' database
 ![ERD for world](https://github.com/megansquire/CSC301Fall2018/blob/master/images/worldERD.png)
 
-1. Using the *world* database, write a query to display the Continent, Country Name, and Surface Area for the country on each continent that has the highest Surface Area. [Hint](https://stackoverflow.com/a/1813766) that uses a "self join" - notice two the tables are joined to themselves!
+1. Using the *world* database, write a query to display the Continent, Country Name, and Surface Area for the country on each continent that has the highest Surface Area. [Hint](https://stackoverflow.com/a/1813766) that uses a "self join" - notice two the tables are joined to themselves! If you use this hint, be sure to really think about why it works. Read the SO post and try to figure out why this works.
 
 Sample answer:
 
