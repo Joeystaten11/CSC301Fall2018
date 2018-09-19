@@ -74,8 +74,11 @@
     - 4.5.2 [Things to know about subqueries](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit4/Unit4.5Notes.md#452-things-to-know-about-subqueries)
     
 🖥 [Day 6 lab covers INNER JOIN Unit 4.1, 4.2](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit4/Day6Lab.md) ([Answers](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit4/Day6LabAnswers.md))
+
 🖥 [Day 7 lab covers OUTER JOIN Unit 4.3](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit4/Day7Lab.md)([Answers](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit4/Day7LabAnswers.md))
+
 🖥 [Day 8 lab covers Subqueries Unit 4.5 (https://github.com/megansquire/CSC301Fall2018/blob/master/Unit4/Day8Lab.md) ([Answers](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit4/Day8LabAnswers.md))
+
 🖥 [Day 9 lab reviews JOINs and subqueries 4.1-4.5(https://github.com/megansquire/CSC301Fall2018/blob/master/Unit4/Day9Lab.md)([Answers](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit4/Day9LabAnswers.md))
 #### Unit 5: Database Design
 
