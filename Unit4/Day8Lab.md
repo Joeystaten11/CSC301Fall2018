@@ -36,5 +36,7 @@ Sample answer:
 
 ![sample answer for q1](https://github.com/megansquire/CSC301Fall2018/blob/master/images/day8lab.1.png)
 
+In addition to using the subquery, can you also use the technique from \#1 above to answer this?
+
 # What to turn in
 Turn in to Moodle a text file with your answers to as many of these 5 questions as possible.
