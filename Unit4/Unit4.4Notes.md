@@ -19,7 +19,7 @@ FROM tableA
 NATURAL JOIN tableB;
 ```
 #### Rules for Natural Joins:
-* There must be some identically-named column in common between the two tables;
+* There must be some identically-named column in common between the two tables, and this identically-named column must be the same data type, same length, and have the same logical purpose in both tables;
 * You will return all columns from tableA as well as all columns from tableB;
 * You will return all rows that have a match in the identically-named column, in both tableA and tableB.
 
