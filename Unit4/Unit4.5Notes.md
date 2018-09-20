@@ -28,7 +28,7 @@ LIMIT 1;
 > We need to be careful of ties. What if there were two values that had that same max population?
 
 ##### Non-correlated Example 2
-"Tell me about the Cities with Populations that are greater than the population of the largest English-speaking City"
+"Tell me about the Cities with SurfaceArea that are greater than the surface area of the largest English-speaking City"
 ```sql
 SELECT City.CityName, Country.CountryName, City.SurfaceArea
 FROM City
