@@ -12,14 +12,14 @@ With non-correlated subqueries, the entire subquery is run first, and then the o
 
 ##### Non-correlated Example 1
 ```sql
-SELECT City.Name, Country.Name, City.Population
+SELECT City.CityName, Country.CountryName, City.Population
 FROM City
 INNER JOIN Country  ON City.CountryCode = Country.Code
 WHERE City.Population = (SELECT max(Population) FROM City);
 ```
 This *might* give results equivalent to the following. We say *might* because we have to assume there were not two cities with the exact same population (a "tie"):
 ```sql
-SELECT City.Name, Country.Name, City.Population
+SELECT City.CityName, Country.CountryName, City.Population
 FROM City
 INNER JOIN Country  ON City.CountryCode = Country.Code
 ORDER BY 3 DESC
@@ -30,7 +30,7 @@ LIMIT 1;
 ##### Non-correlated Example 2
 "Tell me about the Cities with Populations that are greater than the population of the largest English-speaking City"
 ```sql
-SELECT City.Name, Country.Name, City.SurfaceArea
+SELECT City.CityName, Country.CountryName, City.SurfaceArea
 FROM City
 INNER JOIN Country ON City.CountryCode = Country.Code
 WHERE City.SurfaceArea > 
@@ -52,6 +52,8 @@ SELECT MAX(innerTable.num) AS num
       GROUP BY countrycode -- don't end subquery with a ;
     ) AS innerTable
 ```
+Couldn't this be done with a count, ORDER BY, and LIMIT?
+
 #### 4.5.1.2 Correlated subqueries
 Correlated subqueries are a little harder. These are when the columns inside the subquery are also in the outside query.
 
