@@ -84,7 +84,13 @@
 * 5.0 [What is database design?](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.0Notes.md)
     - 5.0.1 [Where does database design fit in?](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.0Notes.md#501-where-does-database-design-fit-in)
     - 5.0.2 [Values of database design](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.0Notes.md#502-values-of-database-design)
-* 5.2 [Entity-Relationship Diagrams](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.2Notes.md)
+* 5.1 [Entity-Relationship Diagrams](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.2Notes.md)
+    - Step 1: [Decide what tables we need](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.1Notes.md#step-1-decide-what-tables-we-need)
+    - Step 2: [Add columns and select primary keys](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.1Notes.md#step-2-add-columns-and-select-primary-keys)
+        * Characteristics of a primary key
+    - Step 3: []()
+    - Step 4: []()
+    
 * 5.3 [Using MySQL Workbench to Create ERDs](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.3Notes.md)
 * 5.4 [Database Normalization](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.4Notes.md)
 * 5.5 [Metadata & Charsets]()
