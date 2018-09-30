@@ -100,9 +100,9 @@
     - 5.2.1 [Setting up MySQL Workbench](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.2Notes.md#521-setting-up-mysql-workbench)
     - 5.2.2 [Using MySQL Workbench to create ERDs](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.2Notes.md#522-using-mysql-workbench-to-create-erds)
     - 5.2.3 [Forward-Engineering ERDs](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.2Notes.md#523-using-mysql-workbench-to-forward-engineer-an-erd)
-* 5.4 [Database Normalization](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.4Notes.md)
-* 5.5 [Metadata & Charsets]()
-* 5.6 [Views & Indexes]()
+* 5.3 [Database Normalization](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.3Notes.md)
+* 5.4 [Metadata & Charsets]()
+* 5.5 [Views & Indexes]()
 
 🖥 Day 11 lab covers [Basic Multi-Table Design Unit 5.0-5.1](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Day11Lab.md)([Answers]())
 🖥 Day 12 lab covers [Creating ERDs in MySQL Workbench Unit 5.2](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Day12Lab.md)([Answers]())
