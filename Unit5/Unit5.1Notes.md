@@ -89,7 +89,7 @@ Each end of the relationship line has a minimum and a maximum cardinality, for a
 > * You have a very wide table and some of the columns "go together" logically and could safely be moved into their own table in order to make the main table more manageable.
 > * You have a lot of nullable columns. Moving the columns out into a separate table with a 1:1 relationship means that you can remove sparse columns from your main table.
 
-### Step 5: Make Sure the ERD Makes Sense in English
+### Step 5: Sanity Check (make sure the ERD makes sense in English)
 This is the most important skill you can get from database design practice. Being able to read an ERD and tell what is - and is not - allowed is a very important skill.
 
 #### Example 1: One-to-Many (1:M) relationship
