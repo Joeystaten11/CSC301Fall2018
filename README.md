@@ -71,7 +71,7 @@
     - 4.4.4 [CROSS JOIN](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit4/Unit4.4Notes.md#444-cross-join)
 * 4.5 [Subqueries](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit4/Unit4.5Notes.md)
     - 4.5.1 [Correlated vs. Non-Correlated](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit4/Unit4.5Notes.md#451-correlated-vs-non-correlated-subqueries)
-    - 4.5.2 [Things to know about subqueries](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit4/Unit4.5Notes.md#452-things-to-know-about-subqueries)
+    - 4.5.2 [Things to know about Subqueries](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit4/Unit4.5Notes.md#452-things-to-know-about-subqueries)
     
 🖥 [Day 6 lab covers INNER JOIN Unit 4.1, 4.2](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit4/Day6Lab.md) ([Answers](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit4/Day6LabAnswers.md))
 
@@ -81,6 +81,14 @@
 
 🖥 [Day 9 lab reviews JOINs and subqueries 4.1-4.5](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit4/Day9Lab.md)([Answers](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit4/Day9LabAnswers.md))
 #### Unit 5: Database Design
+* 5.1 [What is database design?](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.1Notes.md)
+    - 5.1.1 [Where does database design fit in?](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.1Notes.md#511-where-does-database-design-fit-in)
+    - 5.1.2 [Values of database design](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.1Notes.md#512-values-of-database-design)
+* 5.2 [Entity-Relationship Diagrams](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.2Notes.md)
+* 5.3 [Using MySQL Workbench to Create ERDs](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.3Notes.md)
+* 5.4 [Database Normalization](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.4Notes.md)
+* 5.5 [Metadata & Charsets]()
+* 5.6 [Views & Indexes]()
 
 #### Unit 6: Database programming in Python
 
