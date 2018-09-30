@@ -1,4 +1,4 @@
-## 5.2 Making Entity Relationship Diagrams
+## 5.1 Making Entity Relationship Diagrams
 There are different notation styles you can use to make an ERD. We will be using one called a **crow's foot** notation.
 
 Regardless of which ERD style you pick, they all show the same things:
@@ -47,19 +47,19 @@ Every table should have a **Primary Key** (PK). Up to this point in the course, 
 #### Practice with Primary Keys
 Below is an example of a simple, single column primary key.
 
-![single column pk image 5.1](https://github.com/megansquire/CSC301/blob/master/images/5.1.png)
+![single column pk image 5.1](https://github.com/megansquire/CSC301Fall2018/blob/master/images/5.1.png)
 
 Below is an example of a composite primary key. No one column is adequate to be the PK by itself, but a combination of the first two columns makes a good, unique PK.
 
-![composite pk image 5.2](https://github.com/megansquire/CSC301/blob/master/images/5.2.png)
+![composite pk image 5.2](https://github.com/megansquire/CSC301Fall2018/blob/master/images/5.2.png)
 
 ##### Candidate Keys
-**Candidate keys** are any columns (single column or set of columns) that are "in the running" to become the PK. Which columns would make good primary keys? There can be more than one candidate key per table. In the example below, the data shows that - at least right now - there are two candidate keys. For the long term, which one would be the "better" choice for a PK?
+**Candidate keys** are any columns (single column or set of columns) that are "in the running" to become the PK. Which columns would make good primary keys? There can be more than one candidate key per table. In the example below, the data shows that - at least right now - there are two candidate keys. *For the long term, which one would be the "better" choice for a PK?*
 
-![candidate key image 5.3](https://github.com/megansquire/CSC301/blob/master/images/5.3.png)
+![candidate key image 5.3](https://github.com/megansquire/CSC301Fall2018/blob/master/images/5.3.png)
 
 If you answered `StudentId`, I would agree with you. Why? 
-1. The combination of `firstName` and `lastName` seems brittle - it could easily be violated in the future with another Jim Black or another Anne Norris. 
+1. The combination of `firstName` and `lastName` seems brittle - it could easily be violated in the future if another Jim Black or another Anne Norris enrolls. 
 1. `StudentId` seems less likely to change - what if someone changes their name?
 1. `StudentId` is shorter.
 
@@ -68,7 +68,7 @@ The lines on an ERD (generally) connect the primary keys in one table to some ma
 
 Example:
 
-![ERD image 5.4](https://github.com/megansquire/CSC301/blob/master/images/5.4.png)
+![ERD image 5.4](https://github.com/megansquire/CSC301Fall2018/blob/master/images/5.4.png)
 
 In this example, the column in common is `officeCode`. It is the primary key in the `offices` table, but it is NOT the primary key in the `employees` table. 
 
@@ -94,7 +94,7 @@ This is the most important skill you can get from database design practice. Bein
 
 #### Example 1: One-to-Many (1:M) relationship
 
-![1:M example image 5.5](https://github.com/megansquire/CSC301/blob/master/images/5.5.png)
+![1:M example image 5.5](https://github.com/megansquire/CSC301Fall2018/blob/master/images/5.5.png)
 
 How to read this in English: 
 * An `office.officeCode` can appear in the `employees` table (in the `employees.officeCode` column) many times. 
@@ -103,7 +103,7 @@ How to read this in English:
 
 #### Example 2: Multiple One-to-Many (1:M) relationships
 
-![multiple 1:M relationships image 5.6](https://github.com/megansquire/CSC301/blob/master/images/5.6.png)
+![multiple 1:M relationships image 5.6](https://github.com/megansquire/CSC301Fall2018/blob/master/images/5.6.png)
 
 How to read the top line in English: 
 * A `posts.id` can appear in the `comments` table (in the `comments.post_id` column) many times. 
@@ -116,7 +116,7 @@ How to read the bottom line in English:
 * Each `posts.author_id` must appear once and only once in the `users` table.
 
 #### Example 3: Many-to-Many (M:N) and One-to-Many (1:M) relationships
-![M:N relationships image 5.7](https://github.com/megansquire/CSC301/blob/master/images/5.7.png)
+![M:N relationships image 5.7](https://github.com/megansquire/CSC301Fall2018/blob/master/images/5.7.png)
 
 How to read this diagram in English:
 * news can be written by at most one user (author_id) but users can write one or many news articles (but not zero).
