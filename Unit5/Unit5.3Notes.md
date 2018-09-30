@@ -1,10 +1,10 @@
-## 5.4 Database Normalization
+## 5.3 Database Normalization
 Database normalization is the process of making a relational database design that conforms to certain accepted best practices. Normalization best practices, when executed properly, will help us design a database with:
 * less risk of duplicate data, and 
 * more accurate data, and
 * more atomic data.
 
-### 5.4.1 First Normal Form
+### 5.3.1 First Normal Form
 A table (relation) is in "first normal form" (1NF) when it meets two criteria: 
 * There are no duplicate rows, and
 * All values in the table should be atomic ("no multi-value attributes"). Relations in 1NF will be free of multi-value attributes, such as sets, inside of columns.
@@ -28,7 +28,7 @@ Note that the relation does have unique rows, but they're just very duplicative.
 
 ![1nf violation 5.22](https://github.com/megansquire/CSC301Fall2018/blob/master/images/5.22.png)
 
-### 5.4.2 Second Normal Form (2NF)
+### 5.3.2 Second Normal Form (2NF)
 A table is in second normal form (2NF) when it meets the definition of 1NF, plus, the following criterion:
 * No column is dependent on only *part* of a candidate key. We sometimes say the table has "no partial functional dependencies".
 
@@ -42,28 +42,28 @@ Here is a drawing showing conceptually what a 2NF violation does. [image credit]
 
 ![2nf violation 5.23](https://github.com/megansquire/CSC301Fall2018/blob/master/images/5.23.png)
 
-#### 5.4.2.1 2NF Example 1: teachers and rooms
+#### 5.3.2.1 2NF Example 1: teachers and rooms
 The current PK is a composite key made up of `RoomNum` and `Block`. The `RoomPhoneNum` column is dependent only on the first column of the PK (`RoomNum`). Therefore, this table is NOT in 2NF.
 
 ![2nf violation 5.24](https://github.com/megansquire/CSC301Fall2018/blob/master/images/5.24.png)
 
 The solution is to split rooms into their own table, remove `RoomPhoneNum` from this table. `RoomNum` can be a foreign key (column in common) back to the other table.
 
-#### 5.4.2.2 2NF Example 2: electric toothbrushes and manufacturers
+#### 5.3.2.2 2NF Example 2: electric toothbrushes and manufacturers
 In this example, the `Manufacturer_Country` column is only dependent upon part of the PK: the `manufacturer` column. [image credit](https://www.slideshare.net/samyig/normal-forms-67127011)
 
 ![2nf violation 5.25](https://github.com/megansquire/CSC301Fall2018/blob/master/images/5.25.png)
 
 The solution is to remove manufacturer information to its own table, and remove `country` from this table. `Manufacturer` can be a foreign key (column in common) back to that other table.  (BTW, the same problem exists with `model` and `model name`. Same solution applies.)
 
-#### 5.4.2.3 2NF Example 3: yoga poses and playlists
+#### 5.3.2.3 2NF Example 3: yoga poses and playlists
 In this example, we have a relation that has a synthetic primary key, called `ID`. However, there is also another candidate key, comprised of: `playlist_id`, `order`, `pose_id`. The table violates 2NF because `pose_name` is dependent on only one column of that candidate key (`pose_name` is dependent on `pose_id`).
 
 ![2nf violation 5.26](https://github.com/megansquire/CSC301Fall2018/blob/master/images/5.26.png)
 
 The solution is to split out the poses into their own table, and remove `pose_name` from this table. `Pose_id` can be a foreign key (column in common) back to that `poses` lookup table.
 
-### 5.4.3 Third Normal Form (3NF)
+### 5.3.3 Third Normal Form (3NF)
 A table (relation) is in third normal form (3NF) when it meets the definition of 2NF, plus, the following criterion:
 * No non-key column is dependent on any other non-key column. Sometimes we say the table has "no transitive functional dependencies".
 
@@ -71,17 +71,17 @@ The 3NF test makes us ask: Are there columns that are dependent on some other no
 
 > Special note: if a table is in 2NF, and the table only has columns that comprise its PK, then the table/relation is automatically in 3NF. (Assuming the PK was made correctly.)
 
-#### 5.4.3.1 3NF Example 1: members and companies
+#### 5.3.3.1 3NF Example 1: members and companies
 In the example below, `MID` is the PK for the member table. The `CompLoc` column is dependent upon `Company`, which is a non-key column. In this solution, they split out companies into their own joined table. They created a synthetic PK for Companies, which they used as a foreign key between itself and the `Member` table. [image credit](https://sakil2011.wordpress.com/2011/04/27/rules-of-data-normalization/)
 
 ![3nf violation 5.27](https://github.com/megansquire/CSC301Fall2018/blob/master/images/5.27.png)
 
-#### 5.4.3.2 3NF Example 2: banks
+#### 5.3.3.2 3NF Example 2: banks
 In the example below, the PK is `ID`. The column called `bank` lists the names of the banks, and it is dependent on a non-key column (`bank_code_no`). To make this 3NF we have to split bank details out into their own table. [image credit](http://www.gitta.info/LogicModelin/en/html/DataConsiten_Norm3NF.html)
 
 ![3nf violation 5.28](https://github.com/megansquire/CSC301Fall2018/blob/master/images/5.28.png)
 
-#### 5.4.3.3 Example
+#### 5.3.3.3 Example
 In the example below, the only two columns are `book_id` and `author_id`, and both columns comprise the PK (a composite PK). There are no other columns, and no other possible candidate keys. Therefore, this table is automatically in 3NF.
 
 ![3nf violation 5.29](https://github.com/megansquire/CSC301Fall2018/blob/master/images/5.29.png)
