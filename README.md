@@ -105,6 +105,7 @@
 * 5.5 [Views & Indexes]()
 
 🖥 Day 11 lab covers [Basic Multi-Table Design Unit 5.0-5.1](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Day11Lab.md)([Answers]())
+
 🖥 Day 12 lab covers [Creating ERDs in MySQL Workbench Unit 5.2](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Day12Lab.md)([Answers]())
 
 #### Unit 6: Database programming in Python
