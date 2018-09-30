@@ -81,9 +81,9 @@
 
 🖥 [Day 9 lab reviews JOINs and subqueries 4.1-4.5](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit4/Day9Lab.md)([Answers](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit4/Day9LabAnswers.md))
 #### Unit 5: Database Design
-* 5.1 [What is database design?](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.1Notes.md)
-    - 5.1.1 [Where does database design fit in?](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.1Notes.md#511-where-does-database-design-fit-in)
-    - 5.1.2 [Values of database design](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.1Notes.md#512-values-of-database-design)
+* 5.0 [What is database design?](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.0Notes.md)
+    - 5.0.1 [Where does database design fit in?](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.0Notes.md#501-where-does-database-design-fit-in)
+    - 5.0.2 [Values of database design](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.0Notes.md#502-values-of-database-design)
 * 5.2 [Entity-Relationship Diagrams](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.2Notes.md)
 * 5.3 [Using MySQL Workbench to Create ERDs](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.3Notes.md)
 * 5.4 [Database Normalization](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.4Notes.md)
