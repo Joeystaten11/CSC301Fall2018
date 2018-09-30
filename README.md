@@ -87,14 +87,25 @@
 * 5.1 [Entity-Relationship Diagrams](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.2Notes.md)
     - Step 1: [Decide what tables we need](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.1Notes.md#step-1-decide-what-tables-we-need)
     - Step 2: [Add columns and select primary keys](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.1Notes.md#step-2-add-columns-and-select-primary-keys)
-        * Characteristics of a primary key
-    - Step 3: []()
-    - Step 4: []()
-    
-* 5.3 [Using MySQL Workbench to Create ERDs](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.3Notes.md)
+        * [Characteristics of a primary key](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.1Notes.md#characteristics-of-primary-keys)
+        * [Uniqueness of a primary key](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.1Notes.md#uniqueness-of-primary-keys)
+        * [Primary key vocabulary](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.1Notes.md#primary-key-vocabulary)
+        * [Primary key utility](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.1Notes.md#utility-of-a-primary-key)
+        * [Practice with primary keys](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.1Notes.md#practice-with-primary-keys)
+        * [Candidate keys](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.1Notes.md#candidate-keys)
+    - Step 3: [Add relationship lines on ERD](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.1Notes.md#step-3-add-the-relationship-lines-on-an-erd)
+    - Step 4: [Add cardinalities to each relationship](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.1Notes.md#step-4-adding-cardinalities-to-each-relationship)
+    - Step 5: [Sanity-Check the ERD](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.1Notes.md#step-5-sanity-check-make-sure-the-erd-makes-sense-in-english)
+* 5.2 [Using MySQL Workbench for Database Design](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.2Notes.md)
+    - 5.2.1 [Setting up MySQL Workbench](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.2Notes.md#521-setting-up-mysql-workbench)
+    - 5.2.2 [Using MySQL Workbench to create ERDs](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.2Notes.md#522-using-mysql-workbench-to-create-erds)
+    - 5.2.3 [Forward-Engineering ERDs](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.2Notes.md#523-using-mysql-workbench-to-forward-engineer-an-erd)
 * 5.4 [Database Normalization](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.4Notes.md)
 * 5.5 [Metadata & Charsets]()
 * 5.6 [Views & Indexes]()
+
+🖥 Day 11 lab covers [Basic Multi-Table Design Unit 5.0-5.1](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Day11Lab.md)([Answers]())
+🖥 Day 12 lab covers [Creating ERDs in MySQL Workbench Unit 5.2](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Day12Lab.md)([Answers]())
 
 #### Unit 6: Database programming in Python
 
