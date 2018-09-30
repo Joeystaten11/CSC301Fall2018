@@ -1,4 +1,4 @@
-## 5.4 Making Entity Relationship Diagrams
+## 5.2 Making Entity Relationship Diagrams
 There are different notation styles you can use to make an ERD. We will be using one called a **crow's foot** notation.
 
 Regardless of which ERD style you pick, they all show the same things:
