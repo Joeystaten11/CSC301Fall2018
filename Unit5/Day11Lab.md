@@ -15,7 +15,7 @@ Each dog has a unique number, a first name, a last name, an approx birth year, a
 Authors have the typical contact info (unique identifier, name, birthdate, web site, email). Books have a unique ISBN number, title, price. Each book can have one or more authors. An author will write one or more books. 
 
 ### 4- Twitter users and followers
-Twitter users have information about them (id number, name, profile picture URL, date joined, private (yes/no)). Each Twitter user can follow 0 or more other users. Follow relationships are *not* bi-directional. (In other words, you can follow someone and they don't have to follow you back.)
+Twitter users have information about them (id number, username, display name, profile picture URL). Each Twitter user can follow 0 or more other users. Follow relationships are *not* bi-directional. (In other words, you can follow someone and they don't have to follow you back.)
 
 ## What to turn in
 Turn in your paper with your name at the top.
