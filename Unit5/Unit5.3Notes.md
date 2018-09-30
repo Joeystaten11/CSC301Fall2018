@@ -1,7 +1,7 @@
-## 5.5 Using MySQL Workbench for Database Design
+## 5.3 Using MySQL Workbench for Database Design
 MySQL Workbench is just another front-end **client** into a MySQL database, just like PhpMyAdmin (PMA) is a front-end client into a MySQL database. The main difference between Workbench and PMA is that Workbench is a full desktop application, but PMA runs in the browser.
 
-### 5.5.1 Setting up MySQL Workbench
+### 5.3.1 Setting up MySQL Workbench
 The first step in using MYSQL Workbench is to set up a connection to some existing database. 
 
 * Connection name. You can name it whatever you like.
@@ -13,7 +13,7 @@ Here is the way the completed login form should look:
 
 ![mysql workbench setup image 5.8](https://github.com/megansquire/CSC301/blob/master/images/5.8.png)
 
-### 5.5.2 Using MySQL Workbench to Create ERDs
+### 5.3.2 Using MySQL Workbench to Create ERDs
 To begin making an ERD, select the ERD icon at the top of the screen. The abbreviation "EER" stands for Extended Entity Relationship Diagram, and it is roughly synonymous with ERD.
 
 ![mysql workbench EER 5.9](https://github.com/megansquire/CSC301/blob/master/images/5.9.png)
@@ -28,7 +28,7 @@ Add or fix the cardinalities to each relationship line by using the screen below
 
 Attention Mac users: There is a known MySQL Workbench bug that makes your PK "key" symbols disappear sometimes. When you create a composite primary key that then becomes a foreign key back to another table, sometimes the keys are made correctly, but the key icons disappear from the ERD. [Here is a description of the bug](https://bugs.mysql.com/bug.php?id=81482&error=lp).
 
-### 5.5.3 Using MySQL Workbench to Forward-Engineer an ERD
+### 5.3.3 Using MySQL Workbench to Forward-Engineer an ERD
 After your model (ERD) is made, it is time to auto-generate the `CREATE` statements so we can build the model out on the database server.
 
 First, we have to tell MySQL Workbench which database schema is ours on the server. From the MySQL Model tab, locate the default `mydb` schema and Edit it so that it points to the correct database. (At Elon, this will be the CS server database schema named after yourself.)
