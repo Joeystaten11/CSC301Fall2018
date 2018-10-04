@@ -1,6 +1,8 @@
 ## 5.2 Using MySQL Workbench for Database Design
 MySQL Workbench is just another front-end **client** into a MySQL database, just like PhpMyAdmin (PMA) is a front-end client into a MySQL database. The main difference between Workbench and PMA is that Workbench is a full desktop application, but PMA runs in the browser.
 
+It is pre-loaded on the lab computers, but you can also [download it for your own machine](https://www.mysql.com/products/workbench/) if you like.
+
 ### 5.2.1 Setting up MySQL Workbench
 The first step in using MYSQL Workbench is to set up a connection to some existing database. 
 
