@@ -15,7 +15,7 @@ Here is the way the completed login form should look:
 ![mysql workbench setup image 5.8](https://github.com/megansquire/CSC301Fall2018/blob/master/images/5.8.png)
 
 ### 5.2.2 Using MySQL Workbench to Create ERDs
-To begin making an ERD, select the ERD icon at the top of the screen. The abbreviation "EER" stands for Extended Entity Relationship Diagram, and it is roughly synonymous with ERD.
+To begin making an ERD, use File | New Model, then select the ERD icon at the top of the screen. The abbreviation "EER" stands for Extended Entity Relationship Diagram, and it is roughly synonymous with ERD.
 
 ![mysql workbench EER 5.9](https://github.com/megansquire/CSC301Fall2018/blob/master/images/5.9.png)
 
